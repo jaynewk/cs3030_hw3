@@ -21,7 +21,7 @@
 #Declaration of usage function
 usageState()
 {
-	echo "Usage: steven_nye_hw2.sh [-c customerDataFolder] [-f dataFile] [-u     username]"
+	echo "Usage: ./house_tullys_jordannewkirk.sh [-a awkFile] [-s sedFile] [-i inputFile]"
     echo "All arguments are required"
 } 
 
@@ -42,6 +42,27 @@ helpFun()
  
 #call function(s)
 helpFun "$1"
+
+#start getopts
+while getopts ":a:s:i:" opt
+do
+	case $opt in
+		a)
+			AWKFILE=$OPTARG
+			;;
+		s)
+			SEDFILE=$OPTARG
+			;;
+		i)
+			INPUTFILE=$OPTARG
+			;;
+		\?)
+			echo "Invalid argument, exiting..."
+			exit 1
+			;;
+	esac
+done
+
 
 
 exit 0
