@@ -11,12 +11,37 @@
 #  REQUIREMENTS: ---
 #          BUGS: ---
 #         NOTES: ---
-#        AUTHOR: Jordan Newkirk (), 
-#  ORGANIZATION: 
+#        AUTHOR: Jordan Newkirk (), Steven Nye (),
 #       CREATED: 09/29/2016 12:19
 #      REVISION:  ---
 #===============================================================================
 
 #set -o nounset                              # Treat unset variables as an er
 
+#Declaration of usage function
+usageState()
+{
+	echo "Usage: steven_nye_hw2.sh [-c customerDataFolder] [-f dataFile] [-u     username]"
+    echo "All arguments are required"
+} 
 
+#Declaration of help function
+helpFun()
+{
+	if [[ "$1" == "--help" ]]
+	then
+		echo "Usage ./house_tullys_jordannewkirk --help"
+		echo "--help Print this help message"
+		echo "-a specifies the awk file"
+		echo "-s specifies the sed file"
+		echo "-i specifies the input file"
+		echo "With no arguments it provides a usage statement"
+		exit
+	fi
+}
+ 
+#call function(s)
+helpFun "$1"
+
+
+exit 0
