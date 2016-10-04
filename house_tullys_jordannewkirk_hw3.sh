@@ -63,6 +63,17 @@ do
 	esac
 done
 
+#check for empty vars
+if [[ ! "$AWKFILE" || ! "$SEDFILE" || ! "$INPUTFILE" ]]
+then
+	usageState
+	exit 1
+fi
+
+sed -f $SEDFILE $INPUTFILE | awk -f $AWKFILE > 20CenturyPresidents.txt
+
+echo "Your output file will be save in the 20CenturyPresidents.txt file"
+
 
 
 exit 0
