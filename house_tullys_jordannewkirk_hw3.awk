@@ -1,7 +1,13 @@
- 
-awk -F, '{print $2, "from " $4 " to " $5}' presidents.csv |
-	awk -v x=1900 -F/ '{if ($3>x) print $0}'
 
+#awk -F, '{print $2,"from " $4 " to " $5}' presidents.csv |
+#	awk -v x=1900 -F/ '{if ($3>x) print $0}'
+
+{
+	FS=","
+	if (substr($4, length($4)-3)>1900)
+	print $2, "from " $4 " to " $5
+		
+}
 
 #	awk -F/ 'a $3>1900 {
 #		print 
