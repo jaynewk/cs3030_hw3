@@ -1,0 +1,101 @@
+commit b0f9a9b729f1d07d5cb70cc0a8da3f15b3cbe399
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Wed Oct 5 22:03:49 2016 -0600
+
+    FINAL COMMIT
+
+commit 1e10daf1a2c6d1f7fe37b7e29b15f1aad452ab82
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Wed Oct 5 19:10:20 2016 -0600
+
+    Final commit of awk
+
+commit 36897930b1cf657d66ee3c21d292744c55bbd704
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Oct 4 13:13:36 2016 -0600
+
+    added logic for calling sed and awk
+
+commit 940aeb4f7dc982365cd2371e2c7e3b111667fbd5
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Oct 4 13:06:31 2016 -0600
+
+    added getopts to bash file
+
+commit 8d2e5fb87172fb039b310a874579f6e58b70a7bf
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Oct 4 13:01:32 2016 -0600
+
+    added usage and help functions to bash file
+
+commit a4963e444ac0af1eace74372eb628debaf82cb61
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Tue Oct 4 12:47:24 2016 -0600
+
+    fixed sed file
+
+commit 22c205b67dbca8165f4bffad934077c00884619d
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Thu Sep 29 22:44:21 2016 -0600
+
+    completed sed command
+
+commit 59382af0b51250ae8bbab60805d9bd8c7eade275
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Thu Sep 29 12:45:54 2016 -0600
+
+    adding presidents.csv
+
+commit 5215d4266d57ca1f3b5820707853792a3308fcb7
+Author: jaynewk <jordannewkirk1@mail.weber.edu>
+Date:   Thu Sep 29 12:38:24 2016 -0600
+
+    Rename house_tullys_chatdenison_hw3.awk to house_tullys_jordannewkirk_hw3.awk
+
+commit abd71d0cf538456335a06c235c5b1586579d2477
+Merge: 5b21a01 f7a5e39
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Thu Sep 29 12:34:23 2016 -0600
+
+    Merge branch 'master' of https://github.com/jaynewk/cs3030_hw3
+    "Pull sed file"
+
+commit 5b21a019d2b9ccc9b6bb7101dc2c0296dafe0131
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Thu Sep 29 12:34:04 2016 -0600
+
+    awk commit
+
+commit f7a5e3921d0b09b39224dea868fdf5041da089bc
+Merge: 6bff7b5 12f5532
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Thu Sep 29 12:30:56 2016 -0600
+
+    Merge branch 'master' of https://github.com/jaynewk/cs3030_hw3
+    
+    "Initial merge"
+
+commit 6bff7b56c2d468ee352103d71cc2283e6798cc95
+Author: Steven R. Nye <stevennye@mail.weber.edu>
+Date:   Thu Sep 29 12:26:54 2016 -0600
+
+    Initial commit by Steven
+
+commit 12f55321c9e165f9afbf61fa4b8985e838c70399
+Merge: 6c69337 52a51e4
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Thu Sep 29 12:26:07 2016 -0600
+
+    Merge https://github.com/jaynewk/cs3030_hw3
+
+commit 6c69337cd33bc7638cfda12a615930f63afbd25a
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Thu Sep 29 12:25:00 2016 -0600
+
+    Initial commit by Jordan
+
+commit 52a51e4ec2af6c38e37959098cd8346d03c769af
+Author: jaynewk <jordannewkirk1@mail.weber.edu>
+Date:   Thu Sep 29 12:10:20 2016 -0600
+
+    Initial commit
